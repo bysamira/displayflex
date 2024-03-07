@@ -1,0 +1,136 @@
+.container {
+    background-color: aquamarine;
+    border: solid 1px black;
+    display: flex;
+    padding: 5px;
+}
+
+.item {
+    background-color: yellow;
+    border: solid 5px blue;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    padding: 5px;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: blue;
+    padding: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    padding: 5px;
+}
+
+.column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: blue;
+    padding: 5px;
+}
+
+.no-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: blue;
+    padding: 5px;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    padding: 5px;
+}
+
+.wrap-reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: blue;
+    padding: 5px;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    background-color: blue;
+    width: 100px;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    background-color: blue;
+    width: 100px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    width: 100px;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    width: 100px;
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    width: 150px;
+}
+
+.space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    width: 150px;
+}
+
+.flex-start2 {
+    display: flex;
+    align-items: flex-start;
+    background-color: blue;
+    height: 50px;
+}
+
+.flex-end2 {
+    display: flex;
+    align-items: flex-end;
+    background-color: blue;
+    height: 50px;
+}
+
+.center2 {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    height: 100px;
+}
+
+.strench {
+    display: flex;
+    align-items: stretch;
+    background-color: blue;
+}
+
+.baseline {
+    display: flex;
+    align-items: baseline;
+    background-color: blue;
+}                       
